@@ -45,16 +45,19 @@ This is a smart recycling bin system that combines object recognition based on Y
 <h4>Execution screenshot in raspberryPi kernel</h4>
 <img width="1447" height="891" alt="image" src="https://github.com/user-attachments/assets/1466d1ab-2428-458a-bd89-261457541d38" />
 
----
+<br>
+<br>
 
 <h4>Demonstration screenshot & GIF</h4>
 <img width="400" height="225" alt="term_project_demo" src="https://github.com/user-attachments/assets/723d4235-e4a4-4b0f-be34-c4d30c2738e8" />
 
----
+<br>
+<br>
 
 <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/9ef62925-a4b4-4df5-9de4-666c3f56e4c6" />
 
----
+<br>
+<br>
 
 <h4>Dashboard screen</h4>
 <img width="1210" height="1378" alt="image" src="https://github.com/user-attachments/assets/1b09b8dc-b7a5-4169-8ec2-2cfaeb4bcd9a" />
@@ -99,12 +102,14 @@ You can view statistics for the entire dataset or for a specific user. (In the s
 <h4>Ratio of recyclable waste types</h4>
 <img width="2548" height="1250" alt="image" src="https://github.com/user-attachments/assets/43ac8a82-87cd-4d2f-bd5e-b33a89625d99" />
 
----
+<br>
+<br>
 
 <h4>Hourly and monthly temperature and humidity trend statistics by specific year (or all years)</h4>
 <img width="2551" height="1253" alt="image" src="https://github.com/user-attachments/assets/c8353d2d-f038-41e5-bec8-230f38ff59a9" />
 
----
+<br>
+<br>
 
 <h4>Monthly usage pattern statistics by specific year(or entire year) (Hourly data also exists in the latest version.)</h4>
 <img width="2552" height="1265" alt="image" src="https://github.com/user-attachments/assets/83169226-b8aa-4e40-853c-9083b03adb93" />
