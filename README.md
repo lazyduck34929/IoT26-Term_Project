@@ -66,6 +66,7 @@ You can view statistics for the entire dataset or for a specific user. (In the s
 
 
 <h4>2. Data Centralization and System Scalability</h4>
+- Intensive Computing Resources: By separating heavy processes such as dashboard statistical aggregation, computation, and web server hosting to AWS EC2, we have optimized the Raspberry Pi so that its limited resources can be fully focused on real-time YOLO AI inference and sensor I/O control.
 - Lightweight Storage Management: By immediately offloading environmental data and detection event logs to the cloud rather than locally, we have fundamentally prevented the potential for capacity saturation and file system corruption on the Raspberry Pi's internal MicroSD card.
 
 - Intensive Computing Resources: By separating heavy processes such as dashboard statistical aggregation, computation, and web server hosting to AWS EC2, we have optimized the Raspberry Pi so that its limited resources can be fully focused on real-time YOLO AI inference and sensor I/O control.
@@ -73,6 +74,7 @@ You can view statistics for the entire dataset or for a specific user. (In the s
 
 
 <h4>3. Real-time Accessibility and Enhanced Management Efficiency</h4>
+- Intensive Computing Resources: By separating heavy processes such as dashboard statistical aggregation, computation, and web server hosting to AWS EC2, we have optimized the Raspberry Pi so that its limited resources can be fully focused on real-time YOLO AI inference and sensor I/O control.
 - Lightweight Storage Management: By immediately offloading environmental data and detection event logs to the cloud rather than locally, we have fundamentally prevented the potential for capacity saturation and file system corruption on the Raspberry Pi's internal MicroSD card.
 
 - Intensive Computing Resources: By separating heavy processes such as dashboard statistical aggregation, computation, and web server hosting to AWS EC2, we have optimized the Raspberry Pi so that its limited resources can be fully focused on real-time YOLO AI inference and sensor I/O control.
