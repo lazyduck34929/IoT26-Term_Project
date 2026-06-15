@@ -6,7 +6,7 @@
 
 This is a smart recycling bin system that combines object recognition based on YOLO v8 nano with IoT sensors (ultrasonic, temperature and humidity) to automatically sort waste and visualize real-time hygiene status and usage pattern statistics on a dashboard.
 
----
+
 <h2>Key Features</h2>
 
 <h4>Edge Side(raspberry_PI)</h4>
