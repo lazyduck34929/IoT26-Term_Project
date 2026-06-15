@@ -97,6 +97,8 @@ You can view statistics for the entire dataset or for a specific user. (In the s
 <h2>Various statistical data from the old version</h2>
 ---
 <h4>Note: This section shows what statistics can be generated from the data, but deals with statistics that were omitted during the web page integration process.</h4>
+<br>
+<h4>Therefore, the contents of this section should be viewed solely in terms of data scalability, demonstrating that statistics can be utilized in such diverse ways.</h4>
 ---
 
 <h4>Ratio of recyclable waste types</h4>
