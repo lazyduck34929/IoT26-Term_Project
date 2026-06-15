@@ -33,7 +33,7 @@ https://universe.roboflow.com/fyp-bfx3h/yolov8-trash-detections</h4>
 <h2>Key Features</h2>
 
 <h4>Edge Side(raspberry_PI)</h4>
-- YOLO v11-based Object Recognition: Identifies recyclable waste (plastic, cans, paper, glass, etc.) with minimal error by applying a multi-frame voting system (decide_by_votes).
+- YOLO v8-based Object Recognition: Identifies recyclable waste (plastic, cans, paper, glass, etc.) with minimal error by applying a multi-frame voting system (decide_by_votes).
 
 - Smart Sensor Control: Dynamically controls hardware (camera, buzzer) by detecting object approach using ultrasonic sensors (energy saving and malfunction prevention).
 
