@@ -8,7 +8,7 @@ This is a smart recycling bin system that combines object recognition based on Y
 
 ---
 <h2>Key Features</h2>
----
+
 <h4>Edge Side(raspberry_PI)</h4>
 - YOLO v11-based Object Recognition: Identifies recyclable waste (plastic, cans, paper, glass, etc.) with minimal error by applying a multi-frame voting system (decide_by_votes).
 
