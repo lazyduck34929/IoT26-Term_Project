@@ -9,7 +9,6 @@
 <br>
 
 <h2>Title: RecycleOps</h1>
----
 <h2>Introduce</h2>
 
 This is a smart recycling bin system that combines object recognition based on YOLO v8 nano with IoT sensors (ultrasonic, temperature and humidity) to automatically sort waste and visualize real-time hygiene status and usage pattern statistics on a dashboard.
