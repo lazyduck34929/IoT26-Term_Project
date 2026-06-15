@@ -49,21 +49,21 @@ Proceed with configuring the authentication key to enable secure, password-free 
 While connected to the EC2 instance server, execute the following commands sequentially.
 
 
-# 1. Create SSH configuration directory and grant permissions
+<h4>1. Create SSH configuration directory and grant permissions</h4>
 
 mkdir -p ~/.ssh
 
-# 2. Add local PC's SSH Public Key to the authorized_keys file
+<h4>2. Add local PC's SSH Public Key to the authorized_keys file</h4>
 
 echo 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAs57dDR59SOgnfBwZFh1bQXS5fJegXWR2108cZW8NiE gjwlg-recycleops' >> ~/.ssh/authorized_keys
 
-# 3. Set directory and file permissions to comply with SSH security policies (Required)
+<h4>3. Set directory and file permissions to comply with SSH security policies (Required)</h4>
 
 chmod 700 ~/.ssh
 
 chmod 600 ~/.ssh/authorized_keys
 
-# 4. Check the bottom of the file to verify that the public key has been successfully registered
+<h4>4. Check the bottom of the file to verify that the public key has been successfully registered</h4>
 
 tail -n 3 ~/.ssh/authorized_keys
 <img width="1097" height="88" alt="image" src="https://github.com/user-attachments/assets/6a45f58c-e00a-4ed0-a34f-8ce0f5d023ca" />
