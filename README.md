@@ -4,11 +4,26 @@
 
 ---
 
+
+
+
+
+
+
+
+
+
 <h2>Title: AIoT Smart Recycling System</h1>
 ---
 <h2>Introduce</h2>
 
 This is a smart recycling bin system that combines object recognition based on YOLO v8 nano with IoT sensors (ultrasonic, temperature and humidity) to automatically sort waste and visualize real-time hygiene status and usage pattern statistics on a dashboard.
+
+
+
+
+
+
 
 
 
@@ -35,6 +50,12 @@ This is a smart recycling bin system that combines object recognition based on Y
 
 
 
+
+
+
+
+
+
 <h2>Demonstration execution results</h2>
 <h4>Execution screenshot in raspberryPi kernel</h4>
 <img width="1447" height="891" alt="image" src="https://github.com/user-attachments/assets/1466d1ab-2428-458a-bd89-261457541d38" />
@@ -56,6 +77,15 @@ You can view statistics for the entire dataset or for a specific user. (In the s
 
 ---
 
+
+
+
+
+
+
+
+
+
 <h2>Why Cloud?(Conclusion & Key Benefits)</h2>
 <h4>1. Resource Optimization for Edge Devices</h4>
 
@@ -76,6 +106,13 @@ You can view statistics for the entire dataset or for a specific user. (In the s
 <h4>3. Real-time Accessibility and Enhanced Management Efficiency</h4>
 
 - Web-based Global Monitoring: Overcoming the limitations of local networks, you can access the dashboard from anywhere with an internet connection to monitor key indicators in real time, such as usage patterns by time of day, hygiene status of collection bins, and the latest disposal history.
+
+
+
+
+
+
+
 
 
 
