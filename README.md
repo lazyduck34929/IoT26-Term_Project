@@ -4,6 +4,8 @@
 
 
 
+
+
 <h2>Title: AIoT Smart Recycling System</h1>
 ---
 <h2>Introduce</h2>
@@ -41,12 +43,18 @@ This is a smart recycling bin system that combines object recognition based on Y
 
 
 
+
+
 <h4>Demonstration screenshot & GIF</h4>
 <img width="400" height="225" alt="term_project_demo" src="https://github.com/user-attachments/assets/723d4235-e4a4-4b0f-be34-c4d30c2738e8" />
 
 
 
+
+
 <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/9ef62925-a4b4-4df5-9de4-666c3f56e4c6" />
+
+
 
 
 
