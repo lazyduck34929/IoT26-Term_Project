@@ -79,6 +79,34 @@ You can view statistics for the entire dataset or for a specific user. (In the s
 
 
 
+<h2>Various statistical data from the old version</h2>
+---
+<h4>Note: This section shows what statistics can be generated from the data, but deals with statistics that were omitted during the web page integration process.</h4>
+---
+
+<h4>Ratio of recyclable waste types</h4>
+<img width="2548" height="1250" alt="image" src="https://github.com/user-attachments/assets/43ac8a82-87cd-4d2f-bd5e-b33a89625d99" />
+
+---
+
+<h4>Hourly and monthly temperature and humidity trend statistics by specific year (or all years)</h4>
+<img width="2551" height="1253" alt="image" src="https://github.com/user-attachments/assets/c8353d2d-f038-41e5-bec8-230f38ff59a9" />
+
+---
+
+<h4>Monthly usage pattern statistics by specific year(or entire year) (Hourly data also exists in the latest version.)</h4>
+<img width="2552" height="1265" alt="image" src="https://github.com/user-attachments/assets/83169226-b8aa-4e40-853c-9083b03adb93" />
+
+
+
+
+
+
+
+
+
+
+
 
 
 
