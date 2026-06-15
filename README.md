@@ -41,6 +41,71 @@ This is a smart recycling bin system that combines object recognition based on Y
 <br>
 <br>
 
+<h2>The process of integrating Raspberry Pi and AWS</h2>
+<h4>Registering an SSH Public Key for External Device Access</h4>
+
+Proceed with configuring the authentication key to enable secure, password-free SSH remote access to the AWS EC2 instance from an external environment (local development PC or edge device).
+
+While connected to the EC2 instance server, execute the following commands sequentially.
+
+```bash
+
+# 1. Create SSH configuration directory and grant permissions
+
+mkdir -p ~/.ssh
+
+# 2. Add local PC's SSH Public Key to the authorized_keys file
+
+echo 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAs57dDR59SOgnfBwZFh1bQXS5fJegXWR2108cZW8NiE gjwlg-recycleops' >> ~/.ssh/authorized_keys
+
+# 3. Set directory and file permissions to comply with SSH security policies (Required)
+
+chmod 700 ~/.ssh
+
+chmod 600 ~/.ssh/authorized_keys
+
+# 4. Check the bottom of the file to verify that the public key has been successfully registered
+
+tail -n 3 ~/.ssh/authorized_keys
+<img width="1097" height="88" alt="image" src="https://github.com/user-attachments/assets/6a45f58c-e00a-4ed0-a34f-8ce0f5d023ca" />
+
+<br>
+<br>
+<br>
+
+<h2>Flask Server Directory Structure and the Purpose of Each File</h2>
+<img width="276" height="361" alt="image" src="https://github.com/user-attachments/assets/954f5f4f-67f0-4141-90bf-0a3c77689a14" />
+
+<br>
+<h4>`server.py` (Backend - Flask App)</h4>
+
+- API Endpoint Hosting: Provides a REST API (`POST /api/events`) and a dashboard data retrieval API (`GET /api/events`) to securely receive real-time data from external edge devices such as Raspberry Pi.
+
+- Data Validation and Standardization: Handles whitelist-based authentication via the `X-API-Key` header and converts missing or invalid data types into safe values ​​(`safe_float`, `safe_int`) (Normalize).
+
+- Lightweight Data Logging (Database Replacement): After checking for duplicates in received structured JSON data (filtering by `event_id`), it loads (appends) the data line by line into the `detection_events.jsonl` file, which is excellent for scalability and preventing data loss.
+
+<br>
+
+<h4>`dashboard.html` (Frontend - Structure)</h4>
+
+- Building the User Interface Framework: A Markdown/HTML5 file that defines the basic structure and layout of the real-time statistics monitoring screen. Component Placement: Includes a top widget card area to display the total number of data points, average AI reliability, etc., a chart canvas (`canvas`) area where statistical graphs by type will be drawn, and a recent event log table structure that will be updated in real time.
+
+<br>
+
+<h4>`dashboard.js` (Frontend - Logic & Dynamic Control)</h4>
+
+- Real-time Data Communication: While the web browser is open, it periodically calls the backend server's API (`GET /api/events`) to retrieve the latest waste separation data in real time.
+
+- Dynamic DOM Manipulation and Chart Visualization: It processes the retrieved JSON log data using JavaScript to update the dashboard's numeric widgets in real time, and integrates with libraries such as Chart.js to dynamically draw graphs showing usage patterns or waste disposal statistics by type.
+
+
+
+
+<br>
+<br>
+<br>
+
 <h2>Demonstration execution results</h2>
 <h4>Execution screenshot in raspberryPi kernel</h4>
 <img width="1447" height="891" alt="image" src="https://github.com/user-attachments/assets/1466d1ab-2428-458a-bd89-261457541d38" />
