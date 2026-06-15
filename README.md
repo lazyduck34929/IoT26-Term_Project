@@ -66,14 +66,16 @@ You can view statistics for the entire dataset or for a specific user. (In the s
 
 
 <h4>2. Data Centralization and System Scalability</h4>
-- Multi-Device Synchronization: Since the Flask server acts as a data hub, real-time JSON data can be streamed to a single AWS instance for integrated management without conflicts, even if multiple smart collection bins are deployed in the future. 
+- Lightweight Storage Management: By immediately offloading environmental data and detection event logs to the cloud rather than locally, we have fundamentally prevented the potential for capacity saturation and file system corruption on the Raspberry Pi's internal MicroSD card.
 
-- Decoupled structure: The system is completely separated into an Edge area responsible for data collection and inference and a Cloud area responsible for data storage and visualization, enabling individual function enhancement and maintenance without interdependence.
+- Intensive Computing Resources: By separating heavy processes such as dashboard statistical aggregation, computation, and web server hosting to AWS EC2, we have optimized the Raspberry Pi so that its limited resources can be fully focused on real-time YOLO AI inference and sensor I/O control.
 
 
 
 <h4>3. Real-time Accessibility and Enhanced Management Efficiency</h4>
-- Web-based Global Monitoring: Overcoming the limitations of local networks, you can access the dashboard from anywhere with an internet connection to monitor key indicators in real time, such as usage patterns by time of day, hygiene status of collection bins, and the latest disposal history.
+- Lightweight Storage Management: By immediately offloading environmental data and detection event logs to the cloud rather than locally, we have fundamentally prevented the potential for capacity saturation and file system corruption on the Raspberry Pi's internal MicroSD card.
+
+- Intensive Computing Resources: By separating heavy processes such as dashboard statistical aggregation, computation, and web server hosting to AWS EC2, we have optimized the Raspberry Pi so that its limited resources can be fully focused on real-time YOLO AI inference and sensor I/O control.
 
 
 
