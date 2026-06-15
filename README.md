@@ -18,6 +18,18 @@ This is a smart recycling bin system that combines object recognition based on Y
 <br>
 <br>
 
+<h2>Used Dataset</h2>
+<h4>yolov8-trash-detections Computer Vision Model</h4>
+<img width="1557" height="897" alt="image" src="https://github.com/user-attachments/assets/dc3b0289-5b32-4097-aeba-9b86f08b97e8" />
+
+<br>
+<h4>The dataset can be downloaded from roboflow.
+https://universe.roboflow.com/fyp-bfx3h/yolov8-trash-detections</h4>
+
+<br>
+<br>
+<br>
+
 <h2>Key Features</h2>
 
 <h4>Edge Side(raspberry_PI)</h4>
