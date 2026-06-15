@@ -4,8 +4,6 @@
 
 
 
-
-
 <h2>Title: AIoT Smart Recycling System</h1>
 ---
 <h2>Introduce</h2>
@@ -43,12 +41,8 @@ This is a smart recycling bin system that combines object recognition based on Y
 
 
 
-
-
 <h4>Demonstration screenshot & GIF</h4>
 <img width="400" height="225" alt="term_project_demo" src="https://github.com/user-attachments/assets/723d4235-e4a4-4b0f-be34-c4d30c2738e8" />
-
-
 
 
 
@@ -56,23 +50,30 @@ This is a smart recycling bin system that combines object recognition based on Y
 
 
 
-
-
 <h4>Dashboard screen</h4>
 <img width="1210" height="1378" alt="image" src="https://github.com/user-attachments/assets/1b09b8dc-b7a5-4169-8ec2-2cfaeb4bcd9a" />
+You can view statistics for the entire dataset or for a specific user. (In the screenshot above, the statistics are for a specific user.)
 
 
 
+<h2>Why Cloud?(Conclusion & Key Benefits)</h2>
+<h4>1. Resource Optimization for Edge Devices</h4>
+
+- Lightweight Storage Management: By immediately offloading environmental data and detection event logs to the cloud rather than locally, we have fundamentally prevented the potential for capacity saturation and file system corruption on the Raspberry Pi's internal MicroSD card.
+
+- Intensive Computing Resources: By separating heavy processes such as dashboard statistical aggregation, computation, and web server hosting to AWS EC2, we have optimized the Raspberry Pi so that its limited resources can be fully focused on real-time YOLO AI inference and sensor I/O control.
 
 
 
+<h4>2. Data Centralization and System Scalability</h4>
+- Multi-Device Synchronization: Since the Flask server acts as a data hub, real-time JSON data can be streamed to a single AWS instance for integrated management without conflicts, even if multiple smart collection bins are deployed in the future. 
+
+- Decoupled structure: The system is completely separated into an Edge area responsible for data collection and inference and a Cloud area responsible for data storage and visualization, enabling individual function enhancement and maintenance without interdependence.
 
 
 
-
-
-
-
+<h4>3. Real-time Accessibility and Enhanced Management Efficiency</h4>
+- Web-based Global Monitoring: Overcoming the limitations of local networks, you can access the dashboard from anywhere with an internet connection to monitor key indicators in real time, such as usage patterns by time of day, hygiene status of collection bins, and the latest disposal history.
 
 
 
