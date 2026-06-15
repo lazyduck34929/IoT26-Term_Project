@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RecycleOps Passport</title>
+  <link rel="stylesheet" href="/static/css/style.css?v=20260615-2">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">AIoT Smart Recycling</p>
+        <h1>RecycleOps Passport</h1>
+      </div>
+      <div class="user-filter">
+        <label for="userSelect">User</label>
+        <select id="userSelect">
+          <option value="">All Users</option>
+          <option value="user_01">User 1</option>
+          <option value="user_02">User 2</option>
+          <option value="user_03">User 3</option>
+          <option value="user_04">User 4</option>
+          <option value="user_05">User 5</option>
+          <option value="user_06">User 6</option>
+          <option value="user_07">User 7</option>
+        </select>
+      </div>
+    </header>
+
+    <section class="hero-grid">
+      <article class="hero-card">
+        <p class="section-label">Today's Recycling</p>
+        <h2 id="heroTitle">Waiting for data</h2>
+        <p id="heroSubtitle">The dashboard will update automatically when Raspberry Pi detection events arrive.</p>
+        <div class="hero-metrics">
+          <div><strong id="totalCount">0</strong><span>Total</span></div>
+          <div><strong id="todayCount">0</strong><span>Today</span></div>
+          <div><strong id="avgConfidence">0%</strong><span>AI Conf.</span></div>
+        </div>
+      </article>
+
+      <article class="passport-card">
+        <p class="section-label">Latest Passport</p>
+        <h3 id="passportClass">No Scan</h3>
+        <p id="passportGuide">The latest scan result will appear here once recycling events are received.</p>
+        <div class="passport-row"><span>User</span><strong id="passportUser">-</strong></div>
+        <div class="passport-row"><span>Confidence</span><strong id="passportConfidence">-</strong></div>
+        <div class="passport-row"><span>Time</span><strong id="passportTime">-</strong></div>
+      </article>
+    </section>
+
+    <section class="class-grid">
+      <article class="class-card plastic"><span>Plastic</span><strong id="plasticCount">0</strong></article>
+      <article class="class-card paper"><span>Paper</span><strong id="paperCount">0</strong></article>
+      <article class="class-card can"><span>Can</span><strong id="canCount">0</strong></article>
+      <article class="class-card glass"><span>Glass</span><strong id="glassCount">0</strong></article>
+    </section>
+
+    <section class="dashboard-grid">
+      <article class="panel">
+        <div class="panel-head">
+          <h3>Usage Pattern</h3>
+          <span>Hourly</span>
+        </div>
+        <div id="hourlyBars" class="bars"></div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <h3>Environment</h3>
+          <span>Latest</span>
+        </div>
+        <div class="env-list">
+          <div><span>Temperature</span><strong id="latestTemp">-</strong></div>
+          <div><span>Humidity</span><strong id="latestHumidity">-</strong></div>
+          <div><span>Status</span><strong id="latestStatus">-</strong></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="panel recent-panel">
+      <div class="panel-head">
+        <h3>Recent Events</h3>
+        <span id="lastUpdated">-</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>User</th>
+              <th>Trash</th>
+              <th>Confidence</th>
+              <th>Distance</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="eventRows"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/js/dashboard.js?v=20260615-2"></script>
+</body>
+</html>
