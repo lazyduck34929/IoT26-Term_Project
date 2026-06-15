@@ -53,11 +53,7 @@ https://universe.roboflow.com/fyp-bfx3h/yolov8-trash-detections</h4>
 <br>
 <br>
 
-<br>
-<br>
-<br>
-
-<h2>Why Cloud?(Conclusion & Key Benefits)</h2>
+<h2>Why we use Cloud?(Key Benefits)</h2>
 <h4>1. Resource Optimization for Edge Devices</h4>
 
 - Lightweight Storage Management: By immediately offloading environmental data and detection event logs to the cloud rather than locally, we have fundamentally prevented the potential for capacity saturation and file system corruption on the Raspberry Pi's internal MicroSD card.
