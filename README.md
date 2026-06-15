@@ -48,7 +48,6 @@ Proceed with configuring the authentication key to enable secure, password-free 
 
 While connected to the EC2 instance server, execute the following commands sequentially.
 
-```bash
 
 # 1. Create SSH configuration directory and grant permissions
 
