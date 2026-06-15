@@ -1,4 +1,4 @@
-# Documentary for IoT26 Term Project
+# IoT26 Term Project - AIoT Smart Recycling System
 
 <img width="1210" height="1378" alt="image" src="https://github.com/user-attachments/assets/ffd5860a-b9e8-4c63-84e5-abc8b9156d28" />
 
@@ -8,7 +8,7 @@
 <br>
 <br>
 
-<h2>Title: AIoT Smart Recycling System</h1>
+<h2>Title: RecycleOps</h1>
 ---
 <h2>Introduce</h2>
 
