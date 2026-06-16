@@ -134,9 +134,6 @@ tail -n 3 ~/.ssh/authorized_keys
 
 - Dynamic DOM Manipulation and Chart Visualization: It processes the retrieved JSON log data using JavaScript to update the dashboard's numeric widgets in real time, and integrates with libraries such as Chart.js to dynamically draw graphs showing usage patterns or waste disposal statistics by type.
 
-
-
-
 <br>
 <br>
 <br>
@@ -148,7 +145,7 @@ tail -n 3 ~/.ssh/authorized_keys
 <br>
 <br>
 
-<h4>Demonstration screenshot & GIF</h4>
+<h4>Demonstration screenshot & GIFs</h4>
 <img width="400" height="225" alt="term_project_demo" src="https://github.com/user-attachments/assets/723d4235-e4a4-4b0f-be34-c4d30c2738e8" />
 
 <br>
@@ -158,6 +155,13 @@ tail -n 3 ~/.ssh/authorized_keys
 
 <br>
 <br>
+
+<img width="400" height="711" alt="KakaoTalk_20260616_095950237" src="https://github.com/user-attachments/assets/34282d6d-21c9-418d-b4ef-0afd389ca33e" />
+
+<br>
+<br>
+`
+
 
 <h4>Dashboard screen</h4>
 <img width="1210" height="1378" alt="image" src="https://github.com/user-attachments/assets/1b09b8dc-b7a5-4169-8ec2-2cfaeb4bcd9a" />
